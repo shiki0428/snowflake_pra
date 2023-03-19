@@ -11,5 +11,8 @@ source venv/bin/activvate
 pip install -r requirements.txt
 ```
 
+環境変数にUSERを指定して.envの値読み込まれないという
+クソムーブで一時間使った。
+
 ここからインストールするパッケージ群コピーする
 <https://github.com/snowflakedb/snowflake-connector-python/blob/main/tested_requirements/requirements_39.reqs>
