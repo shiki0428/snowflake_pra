@@ -23,3 +23,6 @@ pip install -r requirements.txt
 - 非同期対応
 - query_idからsql結果引っ張れるのは強い
 - placeholder色々対応 pyformat/format は知ってた qmark/numericは初めて見た
+## 未確認
+- sqlalchemy 使えるらしい(ormもつかえる？) 
+- alembicも対応らしい
