@@ -2,8 +2,8 @@
 
 ## 環境構築（いつもの）
 ```
-pyenv install 3.10.3
-pyenv global 3.10.3
+pyenv install 3.9.1
+pyenv global 3.9.1
 python -V
 
 python -m venv venv
@@ -16,3 +16,10 @@ pip install -r requirements.txt
 
 ここからインストールするパッケージ群コピーする
 <https://github.com/snowflakedb/snowflake-connector-python/blob/main/tested_requirements/requirements_39.reqs>
+
+
+## メモ
+- psycopgと構文は似ている印象　ほぼ一緒？知らないメソッドが追加であるくらい
+- 非同期対応
+- query_idからsql結果引っ張れるのは強い
+- placeholder色々対応 pyformat/format は知ってた qmark/numericは初めて見た
